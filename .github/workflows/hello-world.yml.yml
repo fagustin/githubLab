@@ -2,7 +2,7 @@ name: hello-world.yml
 on: push
 jobs:
   hello-world-job:
-    run-on: Ubuntu-latest
+    runs-on: Ubuntu-latest
     steps: 
       - name: Check out repository code
         uses: actions/checkout@v3
